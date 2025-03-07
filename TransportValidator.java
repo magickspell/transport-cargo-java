@@ -1,5 +1,7 @@
 public class TransportValidator {
   public static boolean isValidTransportForCargo(Transport transport, Cargo cargo) {
+    // 1 - газообразные; 2 - текучие; 3 - сыпучие;
+    // 1 - самолет; 2 - корабль; 3 - поезд;
     if (cargo.getType() == 1 && transport.getType() == 1) {
         return false;
     }

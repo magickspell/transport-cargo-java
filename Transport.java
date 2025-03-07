@@ -1,7 +1,7 @@
 public class Transport {
   private int id;
   private String name;
-  private int type; // 1 - airplane; 2 - ship; 3 - train;
+  private int type; // 1 - самолет; 2 - корабль; 3 - поезд;
 
   public Transport(int id, String name, int type) {
     this.id = id;
